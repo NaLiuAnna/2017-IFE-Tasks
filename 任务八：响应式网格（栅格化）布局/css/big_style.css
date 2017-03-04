@@ -1,0 +1,78 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.container{
+	width:100%;
+	font-size:12px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:1.253423878711308%;
+	padding-right:1.253423878711308%;
+	box-sizing:border-box;
+}
+
+.container div{
+	height:12px;
+	border:1px solid #999;
+	background-color:#eee;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.no_1,.no_2,.no_3{
+	width:32.23365129500948%;
+	float:left;
+}
+
+.no_1,.no_2{
+	margin-right:1.253423878711308%;
+}
+
+.no_4,.no_6{
+	width:24.14773847125711%;
+}
+
+.no_5{
+	width:48.40547694251421%;
+}
+
+.no_4,.no_5,.no_6{
+	float:left;
+}
+
+.no_4,.no_5{
+	margin-right:1.253423878711308%;
+}
+
+.no_7,.no_8{
+	width:7.723228048010107%;
+	float:left;
+	margin-right:1.253423878711308%;
+}
+
+.no_9,.no_10{
+	width:15.55645609602021%;
+	float:left;
+	margin-right:1.253423878711308%;
+}
+
+.no_11{
+	width:46.88936828806064%;
+	float:left;
+}
+
+#for_display_big1,#for_display_big2{
+	clear:both;
+	width:0px;
+	height:0px;
+	border:0px;
+}
+
+#for_display_small1,#for_display_small2,#for_display_small3{
+	width:0px;
+	height:0px;
+	border:0px;
+	padding:0px;
+}
