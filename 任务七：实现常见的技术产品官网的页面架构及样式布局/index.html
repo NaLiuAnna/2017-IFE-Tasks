@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<title>实现常见的技术产品官网的页面架构及样式布局</title>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<i></i>
+				<p>新世界</p>
+			</div>
+			<nav>
+				<ul>
+					<li class="checked"><a href="#">首页</a></li>
+					<li><a href="#">最新活动</a></li>	
+					<li><a href="#">项目介绍</a></li>	
+					<li><a href="#">爱心社区</a></li>	
+					<li><a href="#">关于我们</a></li>	
+					<li class="login"><i></i><a href="#">登录</a></li>				
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="start">
+				<img src="image/start.jpg">
+				<div class="start_cover"></div>
+				<div class="start_top">
+					<p class="start_time">Time of new life</p>
+					<p class="start_para">新时代，年轻的人们让我们一起<br>体验新生活，享受新生活</p>
+					<button type="button">开始体验</button>
+				</div>
+			</div>
+			<div class="web_des">
+				<ul>
+					<li><i class="web_des_circle"></i><p>打造全新世界观，让你更<br>爱你的生活</p></li>
+					<li><i class="web_des_flag"></i><p>丰富多彩的公益活动，发<br>挥新世界的主人公意识</p></li>
+					<li><i class="web_des_flow"></i><p>时尚的全新理念，超前体验<br>未知的生活</p></li>
+					<li><i class="web_des_squ"></i><p>完善的培养机制，培养你<br>全新的世界观</p></li>				
+				</ul>
+			</div>
+			<div class="question">
+				<i></i>
+				<p>关于新世界，你不知道的还有什么？</p>			
+			</div>
+			<div class="activity">
+				<img src="image/map.jpg">
+				<div class="activity-cover"></div>
+				<div class="activity-cha">
+					<p class="activity-search">查找新世界城市活动信息</p>
+					<hr>
+					<p class="activity-note">每个城市的有不同的活动信息，请自主查询您所需要了解的城市</p>
+					<form method="get" action="#">
+						<div class="regin_select_container">
+							<ul class="secect_ul">
+								<li class="country">
+									<input type="text" placeholder="中国">
+									<i class="drop"></i>
+									<ul class="certain_select">
+										<li>中国</li>
+										<li>美国</li>
+										<li>澳大利亚</li>
+									</ul>
+								</li>
+								<li class="province">
+									<input type="text" placeholder="省份">
+									<i class="drop"></i>
+									<ul class="certain_select">
+										<li>北京市</li>
+										<li>天津市</li>
+										<li>河北省</li>
+										<li>陕西省</li>
+										<li>内蒙古自治区</li>
+										<li>辽宁省</li>
+									</ul>
+								</li>
+								<li class="city">
+									<input type="text" placeholder="城市">
+									<i class="drop"></i>
+									<ul class="certain_select">
+										<li>石家庄</li>
+										<li>衡水</li>
+										<li>保定</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<input type="submit" class="region_submit" value="搜      索">
+					</form>
+				</div>				
+				<div class="activity_intro">
+					<div id="beijing">
+						<h4>北京活动</h4>
+						<p>新社区大联盟</p>
+					</div>
+					<div id="shanghai">
+						<h4>上    海    活    动</h4>
+						<p>夜上海新景观探索</p>
+					</div>
+					<div id="shenzhen">
+						<h4>深圳活动</h4>
+						<p>全新海岸线观点站</p>
+					</div>
+					<div id="hongkong">
+						<h4>香港活动</h4>
+						<p>奢侈消费大派送</p>		
+					</div>		
+				</div>			
+			</div>
+			<div class="new_world">
+				<div class="new_world_title">
+					<h2>新世界</h2>
+					<h1>TIME</h1>
+					<h4>@新世界-北京</h4>	
+					<h4>2016.04.01</h4>		
+				</div>
+				<div class="new_world_con">
+					<h4>新世界/<span>01</span></h4>
+					<p>新世界是个新世界新世界是个新世界新世界是个新世界
+					   新世界是个新世界新世界是个新世界新世界是个新世界
+					   新世界是个新世界新世界是个新世界新世界是个新世界
+					   新世界是个新世界新世界是个新世界
+					</p>
+					<div class="more_info"><a href="#">更多详情</a></div>
+					<i class="new-world-l"></i>	
+					<i class="new-world-m"></i>	
+					<i class="new-world-r"></i>		
+				</div>
+			</div>
+			<div class="new_time">
+				<div class="new_time-l">
+					<h4>新时代</h4>
+					<h4>关于爱生活的我们</h4>
+					<hr>
+					<div><a href="#">查看更多</a></div>
+				</div>
+				<div class="new_time-m">
+					<h4>新时代</h4>
+					<h4>关于爱生活的我们</h4>
+					<hr>
+					<div><a href="#">查看更多</a></div>
+				</div>
+				<div class="new_world-r">
+					<i></i>
+				</div>
+			</div>
+			<div class="volunter">
+				<div class="volunter_top">
+					<h4>成为我们的志愿者</h4>
+					<hr>
+					<p class="top_p">新世界的大家庭需要每一个爱生活的人的加入，如果你够年轻，有梦想，有激情<br>那就不要犹豫，快来加入我们，成为改变所有人生活的人</p>	
+				</div>
+				<div class="volunter_left">
+					<div class="volunter_left_1">
+						<h5>新世界志愿者协议</h5>
+						<p>加入新世界志愿者的人员必须遵守中华人民共和国的相关法律法规，并且本着平等资源的原则......</p>
+						<i></i>
+						<span>more</span>			
+					</div>
+					<div class="volunter_left_2">
+						<h5>新世界志愿者权利</h5>
+						<p>新世界志愿者享受新世界内部所有资源共享的权利，并且享受所在新世界活动的优先参与资格</p>
+						<i></i>
+						<span>more</span>
+					</div>
+					<div class="volunter_left_3">
+						<h5>更多条款</h5>
+						<i></i>
+						<span>more</span>					
+					</div>				
+				</div>
+				<div class="volunter_right">
+					<form action="" method="post">
+						<input  class="name" type="text" name="name" placeholder="姓名："></input>					
+						<input class="age" type="text" name="age" placeholder="年龄："></input>
+						<input class="rela" type="text" name="tel" placeholder="联系方式："></input>
+						<input class="address" type="text" name="address" placeholder="联系地址："></input>
+						<textarea name="dream" placeholder="请简单描述您梦想的生活："></textarea>
+						<input class="submit" type="submit" value="提交申请">						
+					</form>
+				</div>
+			</div>		
+		</main>
+		<footer>
+			<div class="contect">
+				<h4>联系我们</h4>
+				<p>为了更好的获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们的产品咨询<br>也可以通过以下任何方式关注我们动态</p>
+				<form action="" method="post">
+					<input class="email" type="email" name="email" placeholder="someone@email.com"></input>
+					<input class="con_submit" type="submit" value="提交">
+				</form>
+				<div class="contect_icon">
+					<i class="contect_icon_1"></i>
+					<i class="contect_icon_2"></i>
+					<i class="contect_icon_3"></i>
+					<i class="contect_icon_4"></i>
+				</div>
+			</div>
+			<div class="back">
+				<p>@2016新世界</p>
+				<div><a href="#">Back to top</a></div>
+			</div>
+		</footer>
+	</body>
+</html>
