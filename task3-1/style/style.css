@@ -1,0 +1,40 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.form{
+	width:550px;
+	height:100px;
+	margin:10px auto;
+}
+
+.form p{
+	font-size:20px;
+	font-family:"Microsoft Yahei";
+	font-weight:bold;
+	float:left;
+	margin-right:30px;
+}
+
+.text{
+	height:40px;
+	border-radius:5px;
+	width:300px;
+	margin-right:10px;
+	border:2px solid #ccc;
+}
+
+.btn{
+	height:40px;
+	width:80px;
+	background-color:#2f79ba;
+	color:#fff;
+	font-size:20px;
+	font-family:"Microsoft Yahei";
+	font-weight:bold;
+	text-align:center;
+	border:1px solid #2f79ba;
+	border-radius:5px;
+	
+}
