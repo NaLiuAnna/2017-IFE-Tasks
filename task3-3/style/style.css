@@ -1,0 +1,48 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#unit{
+	width:60%;
+	margin:20px auto;
+}
+
+#non_student{
+	margin-left:200px;
+}
+
+#for_student{
+	height:30px;
+	margin:20px auto;
+}
+#for_student p{
+	float:left;
+	margin-right:20px;
+}
+
+select{
+	height:30px;
+	border-radius:5px;
+	margin-right:30px;
+	width:200px;
+	border:1px solid #cdcdcd;
+}
+
+#for_non_student{
+	height:30px;
+	margin:20px auto;
+	display:none;
+}
+
+#for_non_student p{
+	float:left;
+	margin-right:20px;
+}
+
+#company{
+	height:30px;
+	width:500px;
+	border-radius:5px;
+	border:1px solid #cdcdcd;
+}
