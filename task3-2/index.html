@@ -1,0 +1,54 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="style/style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<form class="form" action="" method="get">
+			<div class = "row" id="name">
+				<p class="title">名称</p>
+				<input type="text" class="text" id="nameInput">
+				<p class="warning point" id="nameWarining">必填，长度为4~16个字符</p>
+				<p class="right point" id="nameCor">名称格式正确</p>
+				<p class="empty point" id="nameEmp">名称不能为空</p>
+				<p class="wrong point" id="nameWro">名称格式不正确</p>
+			</div>
+			<div class = "row" id="password">
+				<p class="title">密码</p>
+				<input type="password" id="passwordInput" class="text">
+				<p class="warning point" id="passwordWarning">必填，长度为8~20位英文字母或数字</p>
+				<p class="right point" id="passwordCor">密码可用</p>
+				<p class="empty point" id="passwordEmp">密码不能为空</p>
+				<p class="wrong point" id="passwordWro">密码格式不正确</p>
+			</div>
+			<div class = "row" id="passwordTwice">
+				<p class="title">密码确认</p>
+				<input type="password" id="twiceInput" class="text">
+				<p class="warning point" id="twiceWarning">再次输入相同密码</p>
+				<p class="right point" id="twiceCor">密码输入一致</p>
+				<p class="empty point" id="twiceEmp">密码不能为空</p>
+				<p class="wrong point" id="twiceWro">密码输入不一致</p>
+			</div>
+			<div class = "row" id="email">
+				<p class="title">邮箱</p>
+				<input type="email" id="emialInput" class="text">
+				<p class="warning point" id="emialWarning">请输入邮箱</p>
+				<p class="right point" id="emialCor">邮箱格式正确</p>
+				<p class="empty point" id="emialEmp">邮箱不能为空</p>
+				<p class="wrong point" id="emialWro">邮箱格式不正确</p>
+			</div>
+			<div class = "row" id="telphone">
+				<p class="title">手机</p>
+				<input type="tel" id="telInput" class="text">
+				<p class="warning point" id="telWarning">请输入11位数字手机号码</p>
+				<p class="right point" id="telCor">手机格式正确</p>
+				<p class="empty point" id="telEmp">手机不能为空</p>
+				<p class="wrong point" id="telWro">手机格式不正确</p>
+			</div>
+			<input type="button" value="提交" id="btn" class="btn">
+		</form>
+
+		<script src="script/script.js"></script>
+	</boyd>
+</html>
