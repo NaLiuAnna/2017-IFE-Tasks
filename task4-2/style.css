@@ -1,0 +1,27 @@
+div{
+	width:16px;
+	height:16px;
+	background-image:url("Demo.png");
+}
+
+.un_checkbox{
+	background-position: -25px -33px;
+	float:left;
+}
+
+.checkbox{
+	background-position:-60px -32px;
+	position:relative;
+	left:30px;
+}
+
+.un_radio{
+	background-position:-25px -10px;
+	float:left;
+}
+
+.radio{
+	background-position:-59px -10px;
+	position:relative;
+	left:30px;
+}
