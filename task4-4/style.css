@@ -1,0 +1,33 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+a{
+	text-decoration:none;
+}
+
+h3{
+	font-weight:normal;
+	line-height:40px;
+	background-color:#f5f5f5;
+	padding-left:10px;
+	border-bottom:1px solid #e0dede;
+	color:#000;
+}
+
+section{
+	margin:10px;
+	border:1px solid #e0dede;
+	border-radius:5px;
+}
+
+p{
+	padding:10px;
+	font-size:14px;
+	display:none;
+}
+
+p:target{
+	display:block;
+}
