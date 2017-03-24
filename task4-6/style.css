@@ -1,0 +1,141 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+main{
+	width:80px;
+	height:80px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-40px;
+	margin-left:-40px;
+}
+
+#circle{
+	width:50px;
+	height:50px;
+	border-radius:25px;
+	background-color:#fb8bbc;
+	position:absolute;
+	top:15px;
+	left:15px;
+}
+
+#circleDynamic{
+	width:50px;
+	height:50px;
+	border-radius:25px;
+	position:absolute;
+	top:15px;
+	left:15px;
+}
+
+.arcContainer{
+	width:50px;
+	height:50px;
+	border-radius:25px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.arc{
+	width:0px;
+	height:0px;
+	border-left:12px solid transparent;
+	border-right:12px solid transparent;
+	border-top:25px solid #ff298c;
+	border-radius:10px 10px 0 0;
+	position:absolute;
+	left:25%;
+}
+
+#arcContainer1{
+	animation-name:borderClip;
+	animation-duration:0.5s;
+	animation-iteration-count:infinite;
+}
+
+
+#arcContainer2{
+	animation-name:arcRotate2;
+	animation-duration:0.5s;
+	animation-iteration-count:infinite;
+}
+
+#arcContainer3{
+	animation-name:arcRotate3;
+	animation-duration:0.5s;
+	animation-iteration-count:infinite;
+}
+
+#arcContainer4{
+	animation-name:arcRotate4;
+	animation-duration:0.5s;
+	animation-iteration-count:infinite;
+}
+
+#arcContainer5{
+	animation-name:arcRotate5;
+	animation-duration:0.5s;
+	animation-iteration-count:infinite;
+}
+
+#circleBorder{
+	width:76px;
+	height:76px;
+	border-radius:38px;
+	border:2px solid #ff298c;
+	position:absolute;
+	top:0px;
+	left:0px;
+	clip:rect(5px,80px,80px,0);
+	animation-name:borderClip;
+	animation-duration:0.5s;
+	animation-iteration-count:infinite;
+}
+
+@keyframes borderClip{
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes arcRotate2{
+  from {
+    -webkit-transform: rotate(45deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes arcRotate3{
+  from {
+    -webkit-transform: rotate(90deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes arcRotate4{
+  from {
+    -webkit-transform: rotate(135deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes arcRotate5{
+  from {
+    -webkit-transform: rotate(180deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
