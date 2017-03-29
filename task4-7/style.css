@@ -1,0 +1,35 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    height:100%;
+    width:100%;
+    position:relative;
+}
+main{
+    perspective:1000px;
+    width:500px;
+    height:500px;
+    position:absolute;
+    top:150px;
+    left:400px;
+    border:1px solid #d0d0d0;
+    overflow:hidden;
+}
+
+.container{
+    width:500px;
+    height:500px;
+    position:relative;
+    transform-style:preserve-3d;
+}
+
+
+#btn{
+    width:200px;
+    height:30px;
+    position:absolute;
+    top:660px;
+    left:550px;
+}
