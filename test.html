@@ -19,7 +19,7 @@
     <script>
         var startX = 0,startY = 0;
         var endX = 0,endY = 0;
-        var moveArea;
+        var moveArea=document.getElementById('did');
         function touchStart(evt){
             try  
             {  
@@ -81,10 +81,10 @@
         }
         
         function init(){
-            var did = document.getElementById('did')
-            did.addEventListener("touchstart",touchStart,false);
-            did.addEventListener("touchmove",touchMove,false);
-            did.addEventListener("touchend",touchEnd,false);
+
+            moveArea.addEventListener("touchstart",touchStart,false);
+            moveArea.addEventListener("touchmove",touchMove,false);
+            moveArea.addEventListener("touchend",touchEnd,false);
         }
         
         init();
