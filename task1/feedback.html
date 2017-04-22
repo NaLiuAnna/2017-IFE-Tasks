@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <i id="forward_icon"></i>
+        <p>用户反馈</p>
+    </header>
+    <main>
+        <form id="feedback_content" action="" method="post">
+            <p class="title">反馈类型</p>
+            <select id="feedback_type">
+                <option value="应用异常退出">应用异常退出</option>
+                <option value="数据丢失">数据丢失</option>
+                <option value="其他错误">其他错误</option>
+            </select>
+            <p class="title">问题描述</p>
+            <textarea id="issue_desc"></textarea>     
+            <p class="title">反馈附图</p> 
+            <input type = "text" class="add_img"></input>
+            <img src="" class="added_img" id="added_img"> 
+            <submit value="提交" id="submit">提交</submit> 
+        </form>
+    </main>
+
+    <script src="script/script.js"></script>
+</body>
