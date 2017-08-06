@@ -86,7 +86,7 @@ header nav ul a{
 	display:inline-block;
 	width:13px;
 	height:17px;
-	background-image:url("image/icon.png");
+	background-image:url("./image/icon.png");
 	background-position:0 -31px;
 	margin:8px 5px 0px 0px;
 }
